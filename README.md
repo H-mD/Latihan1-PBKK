@@ -1,2 +1,3 @@
-# Tugas_kalkulator
-membuat kalkulator dengan C#
+# Calculator App
+
+Aplikasi kalkulator sederhana menggunakan .NET winforms
