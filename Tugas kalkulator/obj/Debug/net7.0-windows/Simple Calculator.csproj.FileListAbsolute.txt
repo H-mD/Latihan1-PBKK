@@ -1,0 +1,17 @@
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\bin\Debug\net7.0-windows\Simple Calculator.exe
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\bin\Debug\net7.0-windows\Simple Calculator.deps.json
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\bin\Debug\net7.0-windows\Simple Calculator.runtimeconfig.json
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\bin\Debug\net7.0-windows\Simple Calculator.dll
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\bin\Debug\net7.0-windows\Simple Calculator.pdb
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\obj\Debug\net7.0-windows\Simple_Calculator.Form1.resources
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\obj\Debug\net7.0-windows\Simple_Calculator.Properties.Resources.resources
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\obj\Debug\net7.0-windows\Simple Calculator.csproj.GenerateResource.cache
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\obj\Debug\net7.0-windows\Simple Calculator.GeneratedMSBuildEditorConfig.editorconfig
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\obj\Debug\net7.0-windows\Simple Calculator.AssemblyInfoInputs.cache
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\obj\Debug\net7.0-windows\Simple Calculator.AssemblyInfo.cs
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\obj\Debug\net7.0-windows\Simple Calculator.csproj.CoreCompileInputs.cache
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\obj\Debug\net7.0-windows\Simple Calculator.dll
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\obj\Debug\net7.0-windows\refint\Simple Calculator.dll
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\obj\Debug\net7.0-windows\Simple Calculator.pdb
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\obj\Debug\net7.0-windows\Simple Calculator.genruntimeconfig.cache
+E:\codexx\PBKK\kalkulator\Tugas_kalkulator-master\Tugas kalkulator\obj\Debug\net7.0-windows\ref\Simple Calculator.dll
