@@ -1,4 +1,4 @@
-namespace latihan1;
+namespace Calculator;
 
 static class Program
 {

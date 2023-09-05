@@ -1,4 +1,4 @@
-namespace latihan1;
+namespace Calculator;
 
 public partial class Form1 : Form
 {
