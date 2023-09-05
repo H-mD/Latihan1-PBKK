@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Webcam_Capture</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <reference Include="AForge">
+        <HintPath>.\AForge\AForge.dll</HintPath>
+    </reference>
+    <reference Include="AForge.Video">
+        <HintPath>.\AForge\AForge.Video.dll</HintPath>
+    </reference>
+    <reference Include="AForge.Video.DirectShow">
+        <HintPath>.\AForge\AForge.Video.DirectShow.dll</HintPath>
+    </reference>
+  </ItemGroup>
+
+</Project>

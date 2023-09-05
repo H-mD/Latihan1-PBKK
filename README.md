@@ -1,3 +1,3 @@
-# Calculator App
+# .NET EXERCISE
 
-Aplikasi kalkulator sederhana menggunakan .NET winforms
+Latihan Pembuatan aplikasi sederhana menggunakan .NET Core winforms sebagai salah satu tugas MK PBKK
