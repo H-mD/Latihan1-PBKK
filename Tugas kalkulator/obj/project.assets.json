@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\codexx\\PBKK\\kalkulator\\Tugas_kalkulator-master\\Tugas kalkulator\\Simple Calculator.csproj",
-      "projectName": "Simple Calculator",
-      "projectPath": "E:\\codexx\\PBKK\\kalkulator\\Tugas_kalkulator-master\\Tugas kalkulator\\Simple Calculator.csproj",
+      "projectUniqueName": "E:\\codexx\\PBKK\\Latihan1-PBKK\\Tugas kalkulator\\latihan1.csproj",
+      "projectName": "latihan1",
+      "projectPath": "E:\\codexx\\PBKK\\Latihan1-PBKK\\Tugas kalkulator\\latihan1.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "E:\\codexx\\PBKK\\kalkulator\\Tugas_kalkulator-master\\Tugas kalkulator\\obj\\",
+      "outputPath": "E:\\codexx\\PBKK\\Latihan1-PBKK\\Tugas kalkulator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"

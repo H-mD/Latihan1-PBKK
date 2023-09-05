@@ -1,0 +1,14 @@
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\bin\Debug\net7.0-windows\latihan1.exe
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\bin\Debug\net7.0-windows\latihan1.deps.json
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\bin\Debug\net7.0-windows\latihan1.runtimeconfig.json
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\bin\Debug\net7.0-windows\latihan1.dll
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\bin\Debug\net7.0-windows\latihan1.pdb
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\obj\Debug\net7.0-windows\latihan1.GeneratedMSBuildEditorConfig.editorconfig
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\obj\Debug\net7.0-windows\latihan1.AssemblyInfoInputs.cache
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\obj\Debug\net7.0-windows\latihan1.AssemblyInfo.cs
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\obj\Debug\net7.0-windows\latihan1.csproj.CoreCompileInputs.cache
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\obj\Debug\net7.0-windows\latihan1.dll
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\obj\Debug\net7.0-windows\refint\latihan1.dll
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\obj\Debug\net7.0-windows\latihan1.pdb
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\obj\Debug\net7.0-windows\latihan1.genruntimeconfig.cache
+E:\codexx\PBKK\Latihan1-PBKK\Tugas kalkulator\obj\Debug\net7.0-windows\ref\latihan1.dll
