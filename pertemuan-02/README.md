@@ -1,3 +1,3 @@
-# Webcam Capture App
+# Calculator App
 
-Project .NET Core winforms dengan framework AForge.NET berupa Aplikasi penangkap gambar Webcam sederhana 
+Project .NET Core winforms berupa Aplikasi Kalkulator sederhana 

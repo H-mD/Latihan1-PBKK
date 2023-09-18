@@ -1,89 +1,52 @@
-using AForge;
-using AForge.Video;
-using AForge.Video.DirectShow;
-using System.Drawing.Imaging;
-
-namespace Webcam_Capture;
+namespace Calculator;
 
 public partial class Form1 : Form
 {
-    private FilterInfoCollection captureDevice;
-    private VideoCaptureDevice videoSource;
     public Form1()
     {
         InitializeComponent();
     }
 
-    private void Form1_Load(object sender, EventArgs e)
+    private void button1_Click(object sender, EventArgs e)
     {
-        captureDevice = new FilterInfoCollection(FilterCategory.VideoInputDevice);
-        foreach(FilterInfo deviceList in captureDevice)
-        {
-            comboBoxWebcamList.Items.Add(deviceList.Name);
-        }
-        comboBoxWebcamList.SelectedIndex = 0;
-        videoSource = new VideoCaptureDevice();
+        int nilai1 = int.Parse(textBox1.Text);
+        int nilai2 = int.Parse(textBox2.Text);
+        int hasil;
+        hasil = nilai1 + nilai2;
+        textBox3.Text = hasil.ToString();
     }
 
-    private void buttonStart_Click(object sender, EventArgs e)
+    private void button2_Click(object sender, EventArgs e)
     {
-        if (videoSource.IsRunning)
-        {
-            videoSource.SignalToStop();
-            videoSource.WaitForStop();
-            pictureBox1.Image = null;
-            pictureBox1.Invalidate();
-        }
-        videoSource = new VideoCaptureDevice(captureDevice[comboBoxWebcamList.SelectedIndex].MonikerString);
-        videoSource.NewFrame += new NewFrameEventHandler(VideoSource_NewFrame);
-        videoSource.Start();
+        int nilai1 = int.Parse(textBox1.Text);
+        int nilai2 = int.Parse(textBox2.Text);
+        int hasil;
+        hasil = nilai1 - nilai2;
+        textBox3.Text = hasil.ToString();
     }
 
-    private void VideoSource_NewFrame(object sender, NewFrameEventArgs eventArgs)
+    private void button3_Click(object sender, EventArgs e)
     {
-        pictureBox1.Image = (Bitmap)eventArgs.Frame.Clone();
+        int nilai1 = int.Parse(textBox1.Text);
+        int nilai2 = int.Parse(textBox2.Text);
+        int hasil;
+        hasil = nilai1 * nilai2;
+        textBox3.Text = hasil.ToString();
     }
 
-    private void buttonCapture_Click(object sender, EventArgs e)
+    private void button4_Click(object sender, EventArgs e)
     {
-        pictureBox2.Image = (Bitmap)pictureBox1.Image.Clone();
+        int nilai1 = int.Parse(textBox1.Text);
+        int nilai2 = int.Parse(textBox2.Text);
+        int hasil;
+        hasil = nilai1 / nilai2;
+        textBox3.Text = hasil.ToString();
     }
 
-    private void buttonSaveImage_Click(object sender, EventArgs e)
+    private void button5_Click(object sender, EventArgs e)
     {
-        SaveFileDialog saveFileDialog = new SaveFileDialog();
-        saveFileDialog.Title = "Save Image As";
-        saveFileDialog.Filter = "Image files (*.jpg, *.png) | *.jpg, *.png";
-        ImageFormat imageFormat = ImageFormat.Png;
-
-        if(saveFileDialog.ShowDialog() == DialogResult.OK)
-        {
-            string ext = System.IO.Path.GetExtension(saveFileDialog.FileName);
-            switch (ext)
-            {
-                case ".jpg":
-                    imageFormat = ImageFormat.Jpeg;
-                    break;
-                case ".png":
-                    imageFormat = ImageFormat.Png;
-                    break;
-            }
-            pictureBox2.Image.Save(saveFileDialog.FileName, imageFormat);
-        }
+        textBox1.Text = "";
+        textBox2.Text = "";
+        textBox3.Text = "";
     }
-
-    private void buttonExit_Click(object sender, EventArgs e)
-    {
-        if (videoSource.IsRunning)
-        {
-            videoSource.SignalToStop();
-            videoSource.WaitForStop();
-            pictureBox1.Image = null;
-            pictureBox1.Invalidate();
-            pictureBox2.Image = null;
-            pictureBox2.Invalidate();
-        }
-        Application.Exit(null);
-    }
-         
 }
