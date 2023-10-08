@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>pertemuan_05</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ModernUICharts.WPF.Beta" Version="0.9.1"/>
+    <PackageReference Include="MaterialDesignColors" Version="1.1.2"/>
+    <PackageReference Include="MaterialDesignThemes" Version="2.3.1.953"/>
+  </ItemGroup>
+</Project>
