@@ -9,6 +9,6 @@
     <h1>Contact Us</h1>
     <p>Ini adalah halaman Contact</p>
 
-    <button><a href="/">Back</a></button>
+    <button><a href="./">Back</a></button>
 </body>
 </html>

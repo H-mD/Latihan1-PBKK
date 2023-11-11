@@ -9,6 +9,6 @@
     <h1>About Us</h1>
     <p>Ini adalah halaman about</p>
 
-    <button><a href="/">Back</a></button>
+    <button><a href="./">Back</a></button>
 </body>
 </html>

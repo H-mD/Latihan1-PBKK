@@ -8,7 +8,7 @@
 <body>
     <h1>Hellow World!</h1>
 
-    <button><a href="/about">About</a></button>
-    <button><a href="/contact">Contact</a></button>
+    <button><a href="../about">About</a></button>
+    <button><a href="../contact">Contact</a></button>
 </body>
 </html>
