@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contoh Form</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 50px;
+    }
+
+    .form-container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2>Contoh Form</h2>
+      <form id="myForm" name="myForm">
+        <div class="form-group">
+          <label for="nama">Nama:</label>
+          <input type="text" class="form-control" id="nama" name="nama" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="jenisKelamin">Jenis Kelamin:</label>
+          <select class="form-control" id="jenisKelamin" name="jenis_kelamin" required>
+            <option value="">Pilih Jenis Kelamin</option>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="alamat">Alamat:</label>
+          <textarea class="form-control" id="alamat" name="alamat" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    const form = document.forms["myForm"];
+    form.addEventListener('submit', function (event) {
+        const nama = document.getElementById('nama').value;
+        const email = document.getElementById('email').value;
+        const jenisKelamin = document.getElementById('jenisKelamin').value;
+        const alamat = document.getElementById('alamat').value;
+
+        if (!nama || !email || !jenisKelamin || !alamat) {
+            alert('Please fill in all fields');
+            event.preventDefault();
+        }
+
+        event.preventDefault();
+        fetch("REDACTED", { method: "POST", body: new FormData(form) })
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response;
+        })
+
+        .then((data) => data.json())
+
+        .then((responseData) => {
+            alert("Success!");
+            window.location.reload();
+        })
+
+        .catch((error) => console.error("Error:", error.message));
+    });
+  </script>
+</body>
+
+</html>
