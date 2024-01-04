@@ -1,3 +1,9 @@
-# .NET EXERCISE
+# FRAMEWORK BASED PROGRAMMING
 
-Latihan Pembuatan aplikasi sederhana menggunakan .NET Core winforms sebagai salah satu tugas MK PBKK
+A whole semseter worth of FBP courseworks
+
+### Frameworks that are being used:
+
+* .NET
+* codeigniter4
+* Google App Scripts
